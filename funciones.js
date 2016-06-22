@@ -21,7 +21,7 @@ function presionencabezado()
 {
   var x;
   x=$(this);
-  x.css("color","blue");
+  x.css("color","#fff");
   x.css("font-family","arial");
 }
 
