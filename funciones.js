@@ -1,14 +1,15 @@
-var x;
+var x,c;
 x=$(document);
+c=$(document);
 x.ready(inicializarEventos);
+c.ready(cambiarcolor);
 
 function inicializarEventos()
 {
   var x;
   x=$("#publicidad");
   x.click(presionPublicidad)
-  x=$("#encabezado");
-  x.click(presionencabezado)
+
 }
 
 function presionPublicidad()
@@ -17,11 +18,9 @@ function presionPublicidad()
   x=$(this);
   x.css("background","#fff");
 }
-function presionencabezado()
-{
-  var x;
-  x=$(this);
-  x.css("color","#fff");
-  x.css("font-family","arial");
+function  cambiarcolor() {
+  var c;
+  c= $("#encabezado");
+  c.css("color","#fff");
 }
 
