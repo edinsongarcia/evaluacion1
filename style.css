@@ -1,0 +1,40 @@
+#encabezado {
+	height: 180px;
+	background-color: #ff4589;
+}
+
+.galeria {
+	width: 33.333333%;
+	height: 220px;
+	float: left;
+	background-color: #ff1156;
+}
+
+.break{
+	height: 0px;
+	clear: both;
+}
+
+.texto{
+	background-color: #235698;
+	float: left;
+}
+
+#publicidad{
+	width: 25%;
+	height: 600px;
+	background-color: #124578;
+	float: left;
+}
+
+#content{
+	width: 75%;
+	height: 600px;
+	background-color: #255869;
+	float: left;
+}
+
+#wrapper{
+	width: 95%;
+	margin: 0px auto;
+}
